@@ -1,2 +1,4 @@
-# web-420
-Bellevue University - WEB420-O305 RESTFul APIs
+# WEB 420 RESTful APIs
+## Contributors
+- Richard Krasso 
+- Wendy Rzechula
