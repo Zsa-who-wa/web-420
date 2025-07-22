@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "In-N-Out-Books API",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "start": "node week-9/in-n-out-books/src/app.js",
-    "dev": "nodemon week-9/in-n-out-books/src/app.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zsa-who-wa/web-420.git"
   },
   "author": "Wendy Rzechula",
   "license": "ISC",
