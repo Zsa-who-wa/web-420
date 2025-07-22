@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Zsa-who-wa/web-420#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "express": "^5.1.0"
   }
 }
