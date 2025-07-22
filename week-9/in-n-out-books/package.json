@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node week-9/in-n-out-books/src/app.js",
+    "dev": "nodemon week-9/in-n-out-books/src/app.js",
     "test": "jest"
   },
   "author": "Wendy Rzechula",
