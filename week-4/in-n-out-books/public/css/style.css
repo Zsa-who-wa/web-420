@@ -1,0 +1,106 @@
+/*
+ * Author: Wendy Rzechula
+ * Date: June 15, 2025
+ * File: style.css
+ * Description: Stylesheet for In-N-Out Books
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+}
+
+header {
+  background-color: #17005b;
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  max-width: 1080px;
+  margin: 2em auto;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2.5em;
+  padding: 1.5em;
+  border-left: 6px solid #006d77;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+}
+
+section#about {
+  background-color: #e0f7fa;
+  font-size: 1.1em;
+  border-left-color: #0077b6;
+}
+
+section#top-books {
+  background-color: #fff3cd;
+  border-left-color: #f9a825;
+}
+
+section#info {
+  background-color: white;
+  border: 2px solid #006d77;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.info-flex .hours,
+.info-flex .contact {
+  flex: 1 1 40%;
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: inherit;
+  color: inherit;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  color: #0077b6;
+  font-size: 1.5em;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: square inside;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #17005b;
+  color: white;
+  margin-top: 3em;
+  font-size: 0.9em;
+}
+
+/*
+ * SOURCES:
+ * Duckett, J. (2011). HTML and CSS: Design and Build Websites (1st ed.). John Wiley & Sons.
+ */
