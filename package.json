@@ -1,0 +1,41 @@
+{
+  "name": "in-n-out-books",
+  "version": "1.0.0",
+  "description": "In-N-Out-Books API - Richard Krasso \r - Wendy Rzechula",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node week-9/in-n-out-books/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zsa-who-wa/web-420.git"
+  },
+  "author": "Wendy Rzechula",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  },
+  "engines": {
+    "node": "20.9.0",
+    "npm": "10.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Zsa-who-wa/web-420/issues"
+  },
+  "homepage": "https://github.com/Zsa-who-wa/web-420#readme"
+}
